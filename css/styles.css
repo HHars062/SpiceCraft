@@ -1,0 +1,102 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+#title {
+  background-color: #005A8D;
+  color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 100;
+}
+
+/* Download Buttons */
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+@keyframes example {
+  0%   {left:0px; top:0px;}
+  25%  {left:100px; top:0px;}
+  50%  {left:100px; top:100px;}
+  75%  {left:0px; top:100px;}
+  100% {left:0px; top:0px;}
+}
+
+.title-img {
+  width:70%;
+  /* transform: rotate(10deg); */
+  margin-left: 20px;
+  margin-right: auto;
+  /* padding: 10% 10% 0; */
+  position: relative;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+
+/* Features Bar */
+
+#features {
+  padding: 7% 15%;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.feature-icon {
+  color: #77ACF1;
+}
+
+.feature-icon:hover {
+  color: #005A8D;
+}
+
+.features-h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.features-p {
+  font-family: "Montserrat", sans-serif ;
+  color: #8f8f8f;
+}
